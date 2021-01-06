@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav_bar">
+    <section id="nav_bar">
         <nav>
             <ul>
                 <li><a href="#">About</a></li>
@@ -22,12 +22,12 @@
         </nav>
     </section>
     <section class="top_banner">
-        <div class="half_width">
-            <h1>Hell I'm <span class="highlighted_text">Fardin Khan</span></h1>
-            <p>A fullstack Web Developer Who love to build amazing websites.</p>
+        <div class="half_width top_banner_left">
+            <h1>Hello, I'm <br> <span class="highlighted_text">Fardin Khan</span></h1>
+            <p>A fullstack Web Developer Who love to <br> build amazing websites.</p>
             <a href="https://www.linkedin.com/in/fardin-khan-64b5b01b2/" class="link_btn">Hire Me</a>
         </div>
-        <div class="half_width">
+        <div class="half_width top_banner_right">
             <img src="images/my_photo.png" alt="">
         </div>
     </section>
@@ -35,18 +35,90 @@
         <div class="half_width">
             <img src="images/my_photo2.png" alt="">
         </div>
-        <div class="half_width">
+        <div class="half_width about_area_right">
             <h2>About</h2>
             <p>Actually I am self taught web designer . Now I am in the way to learn web development . Web development was always a passoniate work for me. I love to build website and My mind just can't stop thinking to how I can build better websites and be a better developer. It's what I love and will do . I promise my self I will be the best web developer in the world One day.</p>
-            <a href="#" class="link_btn">Download CV</a>
+            <a href="#" class="link_btn">&#8595; Download CV</a>
         </div>
     </section>
     <section class="latest_project_area">
-        <h2>Latest Working Project</h2>
-        <div class="single_work_box">
+        <h2> <span class="highlighted_text"> Latest</span> Working Project</h2>
+        <div class="all_works_boxes">
+            <div class="single_work_box">
+                <img src="images/image 4.png" alt="">
+                <h3>Power-x-gym (gym website)</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="single_work_box">
+                <img src="images/image 5.png" alt="">
+                <h3>Creative Agency</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="single_work_box">
+                <img src="images/image 8.png" alt="">
+                <h3>Hard Rock Music</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="my_info_area">
+        <div class="lets_chat">
+            <h2>Work Inquiry </h2>
+            <a href="https://www.facebook.com/fardin.khan.iamreligious/" class="link_btn">Let’s Chat</a>
+        </div>
+        <div class="work_information">
+            <h4>Stay connected</h4>
+            <h3>fardinofficial69@gmail.com</h3>
+            <div class="social_media_links">
+                <ul>
+                    <li><a href="#"><img src="icons/Group 33059.png" alt=""></a></li>
+                    <li><a href="#"><img src="icons/image 6.png" alt=""></a></li>
+                    <li><a href="#"><img src="icons/image 7.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Extra Section Start -->
+
+
+    <section class="contact_form_area">
+
+        <h2>Contact Form</h2>
+        
+        <div class="form_area">
+            <div class="my_extra_information">
+                <div class="single_extra_info location">
+                    <h3>Location</h3>
+                    <p>Narsigndi,Dhaka,Bangladesh</p>
+                </div>
+                <div class="single_extra_info phone">
+                    <h3>Phone</h3>
+                    <p>01795510991</p>
+                </div>
+                <div class="single_extra_info website">
+                    <h3>Website</h3>
+                    <p>https://fardin.design</p>
+                </div>
+            </div>
+            <div id="contact_form">
+                <form action="">
+                    <input type="text" placeholder="Your Name" class="input_option_half_width">
+                    <input type="email" placeholder="Your Email" class="input_option_half_width">
+                    <input type="text" placeholder="Subject" class="input_option_full_width">
+                    <textarea name="" id="" cols="30" rows="10" class="input_option_full_width" placeholder="Your message"></textarea>
+                    <a href="#" class="link_btn">Send</a>
+                </form>
+            </div>
             
         </div>
     </section>
+    
+    <footer>
+        <p>All rights Reserved By Fardin Khan| A programming Hero Student</p>
+    </footer>
 
 </body>
 </html>
