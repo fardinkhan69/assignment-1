@@ -128,6 +128,9 @@ section img{
     margin-left: 10px;
     box-shadow: 5px 5px 16px #9e9e9ec7;
 }
+.single_work_box img {
+    height: 220px;
+}
 .single_work_box h3 {
     color: #363958;
     font-size: 23px;
