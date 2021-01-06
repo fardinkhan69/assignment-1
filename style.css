@@ -118,7 +118,7 @@ section img{
     margin-left: 3%;
 }
 .single_work_box {
-    width: 340px;
+    width: 29%;
     height: 330px;
     padding: 20px 16px;
     background-color: #fff;
@@ -224,6 +224,7 @@ section img{
 }
 .single_extra_info h3{
     font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
 }
 #contact_form{
     width: 60%;
